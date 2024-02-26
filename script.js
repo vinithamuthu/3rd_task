@@ -2,20 +2,21 @@
 // 1.How to compare Two JSON have the same properties without order?
 
 // a & b :
-   
-  let obj1 = { name: "Person 1", age:5 };
 
-  
+let obj1 = { name: "Person 1", age: 5 };
 
-  let obj2 = { age:5, name: "Person 1" };
-  
-  if(obj1===obj2){
-    console.log(true);
-  }
-  console.log(false);
-  
 
-   
+
+let obj2 = { age: 5, name: "Person 1" };
+
+if (obj1 === obj2) {
+  console.log("both are equal");
+}
+else {
+  console.log("both are not equal");
+}
+
+
 
 // 2.Use the rest Countries 'API URL' and display all the country flages in the console:
 
@@ -47,7 +48,7 @@ createreq3.onload = function () {
   var result3 = JSON.parse(data3);
   console.log(result3);
   for (var i = 0; i < result3.length; i++) {
-    console.log("County Name"+' : '+ result3[i].name.common, "|| REGION"+' : '+ result3[i].region,  "|| SUB REGION"+' :  '+  result3[i].subregion , "|| populations"+ " : " + result3[i].population,);
+    console.log("County Name" + ' : ' + result3[i].name.common, "|| REGION" + ' : ' + result3[i].region, "|| SUB REGION" + ' :  ' + result3[i].subregion, "|| populations" + " : " + result3[i].population,);
   }
 
 
