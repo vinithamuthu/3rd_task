@@ -13,7 +13,7 @@ if (obj1 === obj2) {
   console.log("both are equal");
 }
 else {
-  console.log("both are not equal");
+  console.log(`Output of First one  "both are not equal" `);
 }
 
 
